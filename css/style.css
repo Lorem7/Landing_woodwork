@@ -1,3 +1,4 @@
+/*Section-a style*/
 nav a {
     text-decoration: none;
     margin-right: 1rem;
@@ -68,6 +69,77 @@ body .navbar {
 }
 .apply-form textarea {
     height: 150px;
+}
+
+/*Section-b style*/
+
+.card-header1 {
+    padding-top: 10rem;
+    background-color: white;
+}
+.card-header1 h1 {
+    font-weight: bold;
+    color: var(--bs-gray);
+    padding-bottom: 1rem;
+}
+.card-header1 h2 {
+    font-size: 22px;
+    color: var(--bs-gray);
+}
+.gallery {
+   padding-top: 4rem;
+}
+
+.gallery .gallery-text div{
+    background-color: #ffc107;
+    height: 200px;
+    width: 600px;
+    padding: 0;
+}
+
+.gallery .img-1-wrap img{
+    margin-right: 1px;
+    width: 100%;
+ }
+.gallery .gallery-text h2 {
+ padding: 4rem 2rem 0 2rem;
+    font-size: 20px;
+    color: white;
+}
+.gallery .gallery-text img {
+   height:auto;
+    width: 600px;
+    margin-top: 2rem;
+}
+
+
+/*Section-c style*/
+
+.service-grid {
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2rem ;
+    grid-row-gap: 2rem ;
+}
+.service-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-item>div{
+    width: 60%;
+}
+h3{
+    color: var(--bs-gray);
+    font-weight: bold !important;
+
+}
+h4 {
+    font-size: 1rem !important;
+    color: var(--bs-gray);
 }
 
 
